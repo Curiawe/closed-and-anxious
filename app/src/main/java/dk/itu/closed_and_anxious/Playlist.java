@@ -1,3 +1,5 @@
+package dk.itu.closed_and_anxious;
+
 import java.util.ArrayList;
 
 public class Playlist {
@@ -23,6 +25,17 @@ public class Playlist {
         // should probably be part of the sqlite db class?
     }
 
+    public ArrayList<Meditation> getMeditations() {
+        return meditations;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 
 
 
